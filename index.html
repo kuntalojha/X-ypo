@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>X ypo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="header">
+    <div class="container">
+      <!-- This is the loge image add option -->
+        <img src="images/logo.png" class="logo">
+        <div class="header-text">
+          <h1>The purpose is to<br> teach, bring learning to people</h1>
+          <span class="square"></span>
+          <p>There are many variations of passages of Lorem
+            available, but the majority have suffered alterat
+            some form, by injected humour, or randomised words
+          which don't look even slightly delievale.</p>
+          <!-- This is for Readmore option -->
+          <button class="common-btn">Read More</button>
+          <!-- This is line and box making part -->
+          <div class="line">
+            <span class="line-1"></span><br>
+            <span class="line-2"></span><br>
+            <span class="line-3"></span><br>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- This is side Nevation option  -->
+   <nav id="sideNav">
+     <ul>
+       <li><a href="#">HOME</a></li>
+       <li><a href="#">ABOUT</a></li>
+       <li><a href="#">FEATURES</a></li>
+       <li><a href="#">COURSES</a></li>
+       <li><a href="#">OFFER</a></li>
+       <li><a href="#">CONTACT</a></li>
+     </ul>
+   </nav>
+   <!-- This end of the Nevation option  -->
+   <!-- This is Nev image  -->
+   <img src="images/menu.png" id="menuBtn">
+
+   <!-- About Section-->
+   <section id="about">
+       <div class="about-left-cal">
+         <img src="images/about.png">
+       </div>
+       <div class="about-right-cal">
+         <div class="about-text">
+           <h1>About Us</h1>
+           <p>
+             Contrary to popular belief, Lorem Ipsum is not simply
+             random text. It has roots in a piece of classical Latin
+             literature from 45 BC, making it over 2000 years old.
+             Richard McClintock, a Latin professor at Hampden-Sydney
+             College in Virginia, looked up one of the more obscure
+             Latin words, consectetur, from a Lorem Ipsum passage, and
+             going through the cites of the word in classical
+             literature, discovered the undoubtable source.
+           </p>
+         </div>
+       </div>
+
+   </section>
+<!-- This is JavaScript for the menu option -->
+   <script>
+     var menuBtn = document.getElementById("menuBtn");
+     var sideNav = document.getElementById("sideNav");
+
+     sideNav.style.right ="-250px";
+     menuBtn.onclick = function()
+     {
+          if (sideNav.style.right=="-250px")
+          {
+                sideNav.style.right="0px";
+          }else
+          {
+                sideNav.style.right="-250px";
+          }
+     }
+   </script>
+   <!-- This is end of the JavaScript  -->
+</body>
+</html>
