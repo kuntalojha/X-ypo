@@ -310,7 +310,12 @@ hr{
   margin: 0 auto 20px;
   cursor: pointer;
 }
-
+.copyright{
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+  color:  var(--primary-color)
+}
 
 
 
