@@ -96,7 +96,7 @@ nav ul li a{
 }
 #menuBtn{
   width: 50px;
-  position: fixed;;
+  position: fixed;
   right: 65px;
   top: 35px;
   z-index: 2;
@@ -132,9 +132,9 @@ nav ul li a{
   font-style: italic;
 }
 .about-text h3{
-  margin: 50px 0 10px;
-  font-size: 28px;
+  font-size: 20px;
   font-style:italic;
+  color: var(--secondary-color);
 }
 
 /* Features */
@@ -309,4 +309,73 @@ hr{
   width: 20px;
   margin: 0 auto 20px;
   cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 770px) {
+    #header{
+      background-image: none;
+    }
+    .container{
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    .logo{
+      margin-right: 27px;
+      width: 70px;
+    }
+    .header-text{
+      margin-top: 100px;
+    }
+    h1{
+      font-size: 24px;
+    }
+
+    #menuBtn{
+      width: 40px;
+      right: 50px;
+    }
+    .common-btn{
+      padding: 10px 16px;
+    }
+    .social-Icons img{
+        width: 14px;
+        margin: 15px auto;
+    }
+    .about-left-col,.about-right-col{
+      flex-basis: 100%;
+    }
+    .about-text{
+      margin: 50px 50px 0;
+      display: inline-block;
+    }
+    .about-text h2{
+      font-size: 18px;
+    }
+    .feature-col{
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+    .course-left-col,.course-right-col{
+      flex-basis: 100%;
+    }
+    .course-right-col{
+      margin-top: 70px;
+    }
+    .contact-left-col,.contact-right-col{
+      flex-basis: 100%;
+    }
+    .contact-right-col{
+      margin-top: 50px;
+    }
+    .footer-left-col,.footer-right-col{
+      flex-basis: 100%;
+    }
+    .link-title{
+      flex-basis: 50%;
+      margin-bottom: 30px;
+    }
+
 }
