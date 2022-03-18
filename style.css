@@ -378,4 +378,24 @@ hr{
       margin-bottom: 30px;
     }
 
+  #sideNav {
+  width: 150px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  top: 0;
+  background: var(--primary-color);
+  z-index: 2;
+  transition: 2s;
+  }
+
+  #menuBtn {
+  width: 40px;
+  position: fixed;
+  top: 40px;
+  right:20px;
+  z-index: 2;
+  cursor: pointer;
+  }
+
 }
